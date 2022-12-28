@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head h1 {
+    width: 260px;
+    color: #511C4D;
+}
+
+.head p {
+    width: 340px;
+    margin-top: 2rem;
+    color: #847C83;
+}
+
+.rate-one {
+    background-color: #F7F2F8;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+.rate-two {
+    background-color: #F7F2F8;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 0 0 2rem ;
+}
+.rate-there {
+    background-color: #F7F2F8;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0 0 4rem;
+}
+
+.rating span {
+    padding: 0 1rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #511C4D;
+    width: 280px;
+}
+
+/* .card-one {
+    width: 280px;
+    background-color: #511C4D;
+}
+
+.card-two {
+    width: 280px;
+    background-color: #511C4D;
+}
+.card-there {
+    width: 280px;
+    background-color: #511C4D;
+} */
+
