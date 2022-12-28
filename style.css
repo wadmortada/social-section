@@ -25,12 +25,14 @@ body {
 }
 
 .rate-one {
+    padding: 1rem;
     background-color: #F7F2F8;
     padding: 1rem;
     border-radius: 1rem;
     margin: 1rem 0;
 }
 .rate-two {
+    padding: 1rem;
     background-color: #F7F2F8;
     padding: 1rem;
     border-radius: 1rem;
@@ -49,22 +51,52 @@ body {
 
 .cards-container {
     display: flex;
-    justify-content: space-between;
-    background-color: #511C4D;
-    width: 280px;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 4rem;
+    color: white;
+    
 }
 
-/* .card-one {
+.card-one {
     width: 280px;
+    height: 240px;
+    padding: 1.5rem;
     background-color: #511C4D;
+    border-radius: 0.5rem;
 }
 
 .card-two {
     width: 280px;
+    height: 240px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
     background-color: #511C4D;
+    border-radius: 0.5rem;
 }
 .card-there {
     width: 280px;
+    height: 240px;
+    padding: 1.5rem;
+    margin-top: 3rem;
     background-color: #511C4D;
-} */
+    border-radius: 0.5rem;
+}
 
+.card-img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.card-head {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-head p {
+    color: #AC6297;
+}
+
+.card-details {
+    margin-top: 2rem;
+}
